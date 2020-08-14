@@ -1,4 +1,4 @@
-package adapter;
+package teeu.android.retrofit2rxjava.adapter;
 
 import android.view.View;
 import android.widget.TextView;
@@ -10,7 +10,6 @@ import teeu.android.retrofit2rxjava.R;
 
 public class PostViewHolder extends RecyclerView.ViewHolder{
     TextView number, title;
-
     public PostViewHolder(@NonNull View itemView) {
         super(itemView);
         number = itemView.findViewById(R.id.text_number);

@@ -7,8 +7,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Post {
-    private int number;
-    private String title;
-    private Banner banner;
+public class Banner {
+    private String url;
+    private int position;
+    private String link;
 }
